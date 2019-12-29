@@ -1,0 +1,16 @@
+{
+  "name": "semsprotocols",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Doug Brammer",
+  "homepage": "https://dougbram72.githum.io/semsprotocols",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
