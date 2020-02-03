@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist",
-    "serve-local":"http-server"
+    "serve-local": "http-server"
   },
   "keywords": [],
   "author": "Doug Brammer",
