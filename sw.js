@@ -1,4 +1,4 @@
-const cacheName = 'protocol-cache-v3';
+const cacheName = 'protocol-cache-v4';
 self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open(cacheName).then(function(cache) {
