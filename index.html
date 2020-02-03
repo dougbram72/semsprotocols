@@ -64,11 +64,26 @@
           <a href="/semsprotocols/ccr.html" class="list-group-item list-group-item-action">
             <h5>CCR</h5>
           </a>
+          <a href="/semsprotocols/multisystemtrauma.html" class="list-group-item list-group-item-action">
+            <h5>Multisystem Trauma</h5>
+          </a>
         </div>
       </div>
     </div>
   </div>
-
+<script>
+  if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
 </body>
 
 </html>

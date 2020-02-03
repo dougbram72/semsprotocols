@@ -1,4 +1,4 @@
-const cacheName = 'protocol-cache-v6';
+const cacheName = 'protocol-cache-v1';
 self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open(cacheName).then(function(cache) {
@@ -8,7 +8,8 @@ self.addEventListener('install', function(event) {
             "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
             "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
             "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js",
-            "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+            "/"
             
           ]
         );
