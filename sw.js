@@ -1,4 +1,4 @@
-const cacheName = 'protocol-cache-v5';
+const cacheName = 'protocol-cache-v6';
 self.addEventListener('install', function(event) {
   console.log(`sw installed ${cacheName}`);
     event.waitUntil(
