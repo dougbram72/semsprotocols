@@ -10,8 +10,7 @@ self.addEventListener('install', function(event) {
             "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js",
             "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
             "/semsprotocols/",
-            "/semsprotocols/abdominalinjuries.html",
-            "/semsprotocols/chestpain.html"
+            "/semsprotocols/*.*"
             
           ]
         );
