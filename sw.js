@@ -1,5 +1,6 @@
 const cacheName = 'protocol-cache-v4';
 self.addEventListener('install', function(event) {
+  console.log(`sw installed ${cacheName}`);
     event.waitUntil(
       caches.open(cacheName).then(function(cache) {
         return cache.addAll(
@@ -34,6 +35,7 @@ self.addEventListener('install', function(event) {
   });
 
   self.addEventListener('activate', function(event) {
+    console.log('sw activate called')
     event.waitUntil(
       caches.keys().then(function(cacheNames) {
         return Promise.all(
